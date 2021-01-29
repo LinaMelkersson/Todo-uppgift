@@ -55,12 +55,12 @@ const newTodo = todo => {
   }
   //Skapar en html-div för att ha design och upplägg på hur de nya todosen skapas och hur detta ser ut
 
-
-
-
 //   function toggle() {
 //       completed = completed ? false : true;
 //   }
+
+
+
 //PROVADE DETTA + ANNAT BORTKOMMENTERAT LÄNGRE NER
 
 
