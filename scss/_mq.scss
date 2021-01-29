@@ -27,6 +27,15 @@
         padding-right: 1rem;
     }
 
+    .form-control i {
+        top: 1.3rem;
+    }
+
+    .form-control small {
+        bottom: 1.5rem;
+        left: 10rem;
+    }
+
 }
 
 @media (max-width: 400px) {
@@ -76,5 +85,14 @@
     .form-control {
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+    .form-control i {
+        top: 3.5rem;
+    }
+
+    .form-control small {
+        bottom: 1.5rem;
+        left: 5rem;
     }
 }
