@@ -1,0 +1,80 @@
+@media (max-width: 780px) {
+    .container {
+        margin: auto;
+        height: 130%;
+        width: 90%;
+    }
+
+    .container2 {
+        margin: auto;
+        margin-top: 5rem;
+        width: 90%;
+        height: 100%;
+    }
+
+    .todoinput {
+        display: grid;
+        justify-items: center;
+    }
+
+    .todobox {
+        width: 80%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    h3 {
+        padding-right: 1rem;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .container {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr;
+        border-radius: 0px; 
+    }
+
+    #rubrik {
+        padding: 0;  
+    }
+
+    .container2 {
+        margin-top: 1rem;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        height: 100%;
+        display: grid;
+        border-radius: 0px;
+    }
+
+    .todobox {
+        width: 90%;
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    h3 {
+        font-size: 12pt;
+    }
+
+    .form {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 0;
+        margin: 0;
+    }
+
+    .form-control {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
